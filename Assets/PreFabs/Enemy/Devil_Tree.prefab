@@ -45,7 +45,6 @@ GameObject:
   - component: {fileID: 8098064716006772810}
   - component: {fileID: -7724612060046711829}
   - component: {fileID: 9206648508846861807}
-  - component: {fileID: 2974502781122237335}
   - component: {fileID: -830418800282998860}
   m_Layer: 0
   m_Name: Devil_Tree
@@ -160,20 +159,6 @@ MonoBehaviour:
   Exp: {fileID: 8389173633487189310, guid: 3444c239ce721c44589650f782cbb098, type: 3}
   RandomBox: {fileID: 1632052825836748, guid: e6fd1715965d63043a413dea8f583622, type: 3}
   monsterDMG: 0
---- !u!114 &2974502781122237335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3724572471564977762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04bfd3ff9e0456841aed8f69aae296a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HitPoint: 10
-  isDie: 0
 --- !u!114 &-830418800282998860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,8 +171,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 025544ebb16a6c345a1267075c767f79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterHP: 10
   type: 1
   dmgDelay: 0.1
+  isDie: 0
 --- !u!1 &3724572471564977764
 GameObject:
   m_ObjectHideFlags: 0

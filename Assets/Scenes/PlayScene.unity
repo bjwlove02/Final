@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5738196, g: 0.6665326, b: 0.6245935, a: 1}
+  m_IndirectSpecularColor: {r: 0.57383156, g: 0.66653043, b: 0.6245978, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3283,6 +3283,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 888580658}
     m_Modifications:
+    - target: {fileID: 133327127, guid: 224a33424c70d7f46848624634c26e12, type: 3}
+      propertyPath: characterHP
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2151416018335385000, guid: 224a33424c70d7f46848624634c26e12, type: 3}
       propertyPath: selectBoxPanel
       value: 
@@ -3347,7 +3351,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerPrefab
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 133327131, guid: 224a33424c70d7f46848624634c26e12, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 224a33424c70d7f46848624634c26e12, type: 3}
 --- !u!4 &1904265532 stripped
 Transform:
