@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.57383156, g: 0.66653043, b: 0.6245978, a: 1}
+  m_IndirectSpecularColor: {r: 0.5738196, g: 0.6665326, b: 0.6245935, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -428,7 +428,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0.77254903}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -889,6 +889,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!4 &377186104 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5629277466765683855, guid: 224a33424c70d7f46848624634c26e12, type: 3}
+  m_PrefabInstance: {fileID: 1904265531}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &439306443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1975,6 +1980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0145d90eeb717bc4d8947e2c613aad4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player_obj: {fileID: 1904265534}
   PlayTime_minute: 2
   TimeRemain: {fileID: 2117828757}
   enemyNum: 100
@@ -3287,6 +3293,22 @@ PrefabInstance:
       propertyPath: characterHP
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 133327133, guid: 224a33424c70d7f46848624634c26e12, type: 3}
+      propertyPath: skills.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 133327133, guid: 224a33424c70d7f46848624634c26e12, type: 3}
+      propertyPath: skillTr.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 133327133, guid: 224a33424c70d7f46848624634c26e12, type: 3}
+      propertyPath: skills.Array.data[3]
+      value: 
+      objectReference: {fileID: 1931902373802558512, guid: 3cf649ba9adb225468e6e491ddca5282, type: 3}
+    - target: {fileID: 133327133, guid: 224a33424c70d7f46848624634c26e12, type: 3}
+      propertyPath: skillTr.Array.data[3]
+      value: 
+      objectReference: {fileID: 377186104}
     - target: {fileID: 2151416018335385000, guid: 224a33424c70d7f46848624634c26e12, type: 3}
       propertyPath: selectBoxPanel
       value: 
@@ -3295,6 +3317,18 @@ PrefabInstance:
       propertyPath: LevelUpPanel
       value: 
       objectReference: {fileID: 885240350}
+    - target: {fileID: 5629277466765683855, guid: 224a33424c70d7f46848624634c26e12, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5629277466765683855, guid: 224a33424c70d7f46848624634c26e12, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5629277466765683855, guid: 224a33424c70d7f46848624634c26e12, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6361307426048062306, guid: 224a33424c70d7f46848624634c26e12, type: 3}
       propertyPath: HP_Slider
       value: 

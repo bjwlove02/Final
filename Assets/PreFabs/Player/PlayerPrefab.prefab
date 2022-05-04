@@ -257,7 +257,6 @@ GameObject:
   - component: {fileID: 6361307426048062305}
   - component: {fileID: 6361307426048062306}
   - component: {fileID: 133327127}
-  - component: {fileID: 133327131}
   - component: {fileID: 133327132}
   - component: {fileID: 133327133}
   - component: {fileID: 3014157980116855550}
@@ -327,7 +326,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 7
-  playerDMG: 0
   HP_Slider: {fileID: 0}
   EXP_Slider: {fileID: 0}
   playerTr: {fileID: 6361307426048062310}
@@ -344,21 +342,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 025544ebb16a6c345a1267075c767f79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterHP: 10
   type: 0
   dmgDelay: 0.1
---- !u!114 &133327131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6361307426048062311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04bfd3ff9e0456841aed8f69aae296a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HitPoint: 10
   isDie: 0
 --- !u!54 &133327132
 Rigidbody:
@@ -443,6 +429,36 @@ MonoBehaviour:
   meleeAttackLevel: 0
   shotGunLevel: 0
   circleBombLevel: 0
+--- !u!1 &7671400082032847814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5629277466765683855}
+  m_Layer: 0
+  m_Name: Arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5629277466765683855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7671400082032847814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.26, z: 1.43}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6486814640428244022}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8454866355626732849
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,6 +489,7 @@ Transform:
   - {fileID: 527628330349889819}
   - {fileID: 2695928678244856254}
   - {fileID: 996071370}
+  - {fileID: 5629277466765683855}
   m_Father: {fileID: 6361307426048062310}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

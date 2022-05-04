@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ko' Physical Memory: 8067 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'ko' Physical Memory: 16315 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,113 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/firet/OneDrive/바탕 화면/Final
+D:/Transcend/과제/2022-1/졸업프로젝트/Final
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60350
-Successfully changed project path to: C:/Users/firet/OneDrive/바탕 화면/Final
-C:/Users/firet/OneDrive/바탕 화면/Final
+64191
+Successfully changed project path to: D:/Transcend/과제/2022-1/졸업프로젝트/Final
+D:/Transcend/과제/2022-1/졸업프로젝트/Final
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 146.06 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 93.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/firet/OneDrive/바탕 화면/Final/Assets
+[Subsystems] Discovering subsystems at path D:/Transcend/과제/2022-1/졸업프로젝트/Final/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
     Vendor:   
-    VRAM:     4021 MB
-    Driver:   26.21.14.4587
+    VRAM:     8011 MB
+    Driver:   30.0.15.1259
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005933 seconds.
+Registered in 0.002291 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 150.23 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 101.82 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.992 seconds
+- Completed reload, in  0.567 seconds
 Domain Reload Profiling:
-	ReloadAssembly (992ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (567ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (727ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (447ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (202ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (331ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (208ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (150ms)
-				BeforeProcessingInitializeOnLoad (20ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (66ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013359 seconds.
+Registered in 0.004859 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.461 seconds
+- Completed reload, in  0.972 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1462ms)
-		BeginReloadAssembly (183ms)
+	ReloadAssembly (973ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1195ms)
-			LoadAssemblies (136ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (399ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (478ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (332ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (232ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 197.9 MB.
-System memory in use after: 198.0 MB.
+Unloading 2081 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.0 MB.
+System memory in use after: 198.1 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2577.
-Total: 4.560800 ms (FindLiveObjects: 0.260600 ms CreateObjectMapping: 0.112100 ms MarkObjects: 3.970300 ms  DeleteObjects: 0.216500 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2575.
+Total: 2.930600 ms (FindLiveObjects: 0.179500 ms CreateObjectMapping: 0.051900 ms MarkObjects: 2.557800 ms  DeleteObjects: 0.140000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -126,47 +126,366 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/PreFabs/System/Exp.prefab
-  artifactKey: Guid(3444c239ce721c44589650f782cbb098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFabs/System/Exp.prefab using Guid(3444c239ce721c44589650f782cbb098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4612c54b62136c38778c8b9a43b6d766') in 0.143355 seconds 
-  Import took 0.149461 seconds .
+  path: Assets/Elven Long Bow/Elven Long Bow Arrow.obj
+  artifactKey: Guid(432dd2b7c2581c744a40ca43b1307c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Long Bow/Elven Long Bow Arrow.obj using Guid(432dd2b7c2581c744a40ca43b1307c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af81cef06565ed6b6cc734ff4aab864') in 0.134765 seconds 
+  Import took 0.138017 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000770 seconds.
-  path: Assets/PreFabs/System/RandomBox.prefab
-  artifactKey: Guid(e6fd1715965d63043a413dea8f583622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFabs/System/RandomBox.prefab using Guid(e6fd1715965d63043a413dea8f583622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad714bb97caf2a53c88f2920f6a84d01') in 0.106039 seconds 
-  Import took 0.112160 seconds .
+  Time since last request: 0.000235 seconds.
+  path: Assets/Elven Long Bow/Textures
+  artifactKey: Guid(cba2f5b66744cd74295c4eb7946ef4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Long Bow/Textures using Guid(cba2f5b66744cd74295c4eb7946ef4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54386097a4e9aeb300dbf29b441ce4e') in 0.006139 seconds 
+  Import took 0.009377 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/PreFabs/Skills/MeleeAttack.prefab
-  artifactKey: Guid(2cf0cbd83e04fc24196a22f084e98fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PreFabs/Skills/MeleeAttack.prefab using Guid(2cf0cbd83e04fc24196a22f084e98fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90217d3f2edf07b965bca74497ec2608') in 0.059114 seconds 
-  Import took 0.064353 seconds .
+  Time since last request: 0.000246 seconds.
+  path: Assets/Elven Long Bow/Materials
+  artifactKey: Guid(2ca3943e8b06b4a48a45c19a4b416db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Long Bow/Materials using Guid(2ca3943e8b06b4a48a45c19a4b416db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d63924e7e49c7b3f27ec7ee393e3f2b') in 0.006055 seconds 
+  Import took 0.009390 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 51.661889 seconds.
-  path: Assets/Scripts/ItemScript/TestItem.asset
-  artifactKey: Guid(f459ec3aab86d7b43bc9497c965b87fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ItemScript/TestItem.asset using Guid(f459ec3aab86d7b43bc9497c965b87fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087bd2fb4fb2fdb6d1aeec9f138eae2d') in 0.016024 seconds 
-  Import took 0.021431 seconds .
+  Time since last request: 22.734200 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/Spiral.fbx
+  artifactKey: Guid(973011b81536fe2408cc13aa49700e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/Spiral.fbx using Guid(973011b81536fe2408cc13aa49700e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489a91f0b08bd9ee81c4cbc17df912dc') in 0.060819 seconds 
+  Import took 0.064482 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.463896 seconds.
-  path: Assets/Scripts/EnemyScript/EnemyCtrl.cs
-  artifactKey: Guid(45b9bd59343a81244ba9f4673eaaae54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EnemyScript/EnemyCtrl.cs using Guid(45b9bd59343a81244ba9f4673eaaae54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a1ff399f7e5c6fd7ba24f24e7336d8') in 0.023657 seconds 
-  Import took 0.028751 seconds .
+  Time since last request: 0.000256 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/SphereGemLarge.fbx
+  artifactKey: Guid(3be870bd3141f9741b70abdfb4242cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/SphereGemLarge.fbx using Guid(3be870bd3141f9741b70abdfb4242cb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25adefaa5b28158ef67867fbafbc36c1') in 0.050420 seconds 
+  Import took 0.053764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/Penta.fbx
+  artifactKey: Guid(34a866017115e1f4693b2328671afe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/Penta.fbx using Guid(34a866017115e1f4693b2328671afe14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ee6dcc94f0a8622965dcae46cd5f9e') in 0.046432 seconds 
+  Import took 0.050099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/SoftStar.fbx
+  artifactKey: Guid(bc0cdff0b0fdafc46bbdbda4b3717d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/SoftStar.fbx using Guid(bc0cdff0b0fdafc46bbdbda4b3717d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a920f433493fba245f589c4fe07834e3') in 0.048254 seconds 
+  Import took 0.051408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/SphereGemSmall.fbx
+  artifactKey: Guid(486351f15650ce5408452352641fc317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/SphereGemSmall.fbx using Guid(486351f15650ce5408452352641fc317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb400bb0dd3028815a705756347b1d24') in 0.060431 seconds 
+  Import took 0.063764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/Diamondo.fbx
+  artifactKey: Guid(911b2aca4190de843ba6fc029bf3734d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/Diamondo.fbx using Guid(911b2aca4190de843ba6fc029bf3734d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d8a093a5f6c5ebeadb3cfecb4dc782') in 0.053194 seconds 
+  Import took 0.056731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/Hexgon.fbx
+  artifactKey: Guid(88298ecb4d0fcff45879b1338c17fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/Hexgon.fbx using Guid(88298ecb4d0fcff45879b1338c17fe54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f0d38ccb997d8a5a9c74e8832d9cb0') in 0.029605 seconds 
+  Import took 0.032969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/Cuboid.fbx
+  artifactKey: Guid(d5201c54bfe2c0242acafec0421e0d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/Cuboid.fbx using Guid(d5201c54bfe2c0242acafec0421e0d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf5be710c1a9e7c51934ca376f510a2') in 0.037055 seconds 
+  Import took 0.040318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/HardStar.fbx
+  artifactKey: Guid(9d0e73dbf5dfc6e4e800cbe52651ac4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/HardStar.fbx using Guid(9d0e73dbf5dfc6e4e800cbe52651ac4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb46ddcbb92ac4a58481815b428a389') in 0.041099 seconds 
+  Import took 0.044290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/BeveledStar.fbx
+  artifactKey: Guid(fce0ecff534816b49af71ef31033c259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/BeveledStar.fbx using Guid(fce0ecff534816b49af71ef31033c259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e057a47ff171a443d4d3f7ecc465ffc5') in 0.030973 seconds 
+  Import took 0.034224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Elven Long Bow/Elven Long Bow.obj
+  artifactKey: Guid(022a72268e462114788abcf0c0b07418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Long Bow/Elven Long Bow.obj using Guid(022a72268e462114788abcf0c0b07418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a96ead8d64cab10c4c0c61f8606321') in 0.018473 seconds 
+  Import took 0.021839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/5 Side Diamond.fbx
+  artifactKey: Guid(aa56074584965524093e852b02a99de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/5 Side Diamond.fbx using Guid(aa56074584965524093e852b02a99de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5fe6bd15e2ef6f1fbdf401a8f56974') in 0.031719 seconds 
+  Import took 0.035056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/4 Side Diamond.fbx
+  artifactKey: Guid(a59faa6df8bd9cd4c8779604face71a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/4 Side Diamond.fbx using Guid(a59faa6df8bd9cd4c8779604face71a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a4f1ce423b0c5996d6ab06c73f66817') in 0.030198 seconds 
+  Import took 0.033649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/Cubie.fbx
+  artifactKey: Guid(8b4719f3fd5020040bdbb5595fda39aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/Cubie.fbx using Guid(8b4719f3fd5020040bdbb5595fda39aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9490026c7122fd1dcc77f9285eb7765b') in 0.030781 seconds 
+  Import took 0.034089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/Diamondo5side.fbx
+  artifactKey: Guid(6217dd83a11a7df46b82193c138a8ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/Diamondo5side.fbx using Guid(6217dd83a11a7df46b82193c138a8ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9079c038c0afbd6dfd5c1284faa462') in 0.029476 seconds 
+  Import took 0.032918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/CubieBeveled.fbx
+  artifactKey: Guid(6579b708f10e00c448d8ddbc06ba95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/CubieBeveled.fbx using Guid(6579b708f10e00c448d8ddbc06ba95fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94421535e2068681e5cbeff08e41ca83') in 0.029697 seconds 
+  Import took 0.032988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Models/Heart.fbx
+  artifactKey: Guid(f5e70b692f804d346a44df961b6ad5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Models/Heart.fbx using Guid(f5e70b692f804d346a44df961b6ad5a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ac7ec6c56fcde7a534d0faf5193cf0') in 0.029216 seconds 
+  Import took 0.032464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.651548 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Prefabs/4 Side Diamond.prefab
+  artifactKey: Guid(0ed203d298c050b49bfabe788790e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Prefabs/4 Side Diamond.prefab using Guid(0ed203d298c050b49bfabe788790e1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fe741f54808b1cc77b04171e998aae') in 0.050414 seconds 
+  Import took 0.053914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Prefabs/5 Side Diamond.prefab
+  artifactKey: Guid(c3c0707254334a64ca8198f7486e977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Prefabs/5 Side Diamond.prefab using Guid(c3c0707254334a64ca8198f7486e977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2441287381b5531ebf3e05016109d5c0') in 0.010068 seconds 
+  Import took 0.012917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051130 seconds.
+  path: Assets/Packages/Gems Ultimate Pack/Prefabs/BeveledStar.prefab
+  artifactKey: Guid(f5c872ee906a85b46aa65e0ab683ed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/Gems Ultimate Pack/Prefabs/BeveledStar.prefab using Guid(f5c872ee906a85b46aa65e0ab683ed9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8da29782bc6eadb0c7d8c82c83ae87c') in 0.020724 seconds 
+  Import took 0.024299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009832 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_CommonUI/Button_Arrow_Back.prefab
+  artifactKey: Guid(d9ccca2ec4d094ef1aade1317e9d3583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_CommonUI/Button_Arrow_Back.prefab using Guid(d9ccca2ec4d094ef1aade1317e9d3583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a09ac778e2ba5ed558d6a0f10ab780e') in 0.061460 seconds 
+  Import took 0.064665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_CommonUI/Button_Arrow_Next.prefab
+  artifactKey: Guid(9d0fc81bb16984961a0251e1f22b6801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_CommonUI/Button_Arrow_Next.prefab using Guid(9d0fc81bb16984961a0251e1f22b6801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef2c2bd1667d198826ad4e1f7288276') in 0.017930 seconds 
+  Import took 0.020987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Blue.prefab
+  artifactKey: Guid(dda5d1df46ff2484eba4a8b23c9b42b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Blue.prefab using Guid(dda5d1df46ff2484eba4a8b23c9b42b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47d81e5a96841ab2549866f0e12d91d') in 0.180202 seconds 
+  Import took 0.183528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Gray.prefab
+  artifactKey: Guid(6f10e32a0dff844b591d590366f0a9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Gray.prefab using Guid(6f10e32a0dff844b591d590366f0a9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfe9ed3c17c8db3b140b863df479746') in 0.030703 seconds 
+  Import took 0.033820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_ETC_Language.prefab
+  artifactKey: Guid(8140575651e0c47789992b38086312c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_ETC_Language.prefab using Guid(8140575651e0c47789992b38086312c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04c1bfe5a18a4885733291cd45c6d5b') in 0.065805 seconds 
+  Import took 0.069100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_ETC_AD_TwoLine.prefab
+  artifactKey: Guid(ab142c7353d354314b4e2cdecfc1802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_ETC_AD_TwoLine.prefab using Guid(ab142c7353d354314b4e2cdecfc1802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c789fef786c4fb078b151056bb7034') in 0.048367 seconds 
+  Import took 0.051702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Green.prefab
+  artifactKey: Guid(d56854e86551b4969b643942ce33c9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Green.prefab using Guid(d56854e86551b4969b643942ce33c9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3725bda7da8a6ea253eb547bb4403335') in 0.051437 seconds 
+  Import took 0.054861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Play/Button_Auto.prefab
+  artifactKey: Guid(ba3b0a15d272748869bf1eece708f53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Play/Button_Auto.prefab using Guid(ba3b0a15d272748869bf1eece708f53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55d2026afc2be767c960c9a245e351a') in 0.051759 seconds 
+  Import took 0.055095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_BlueGray.prefab
+  artifactKey: Guid(529f7649d405e4722a613e00272867ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_BlueGray.prefab using Guid(529f7649d405e4722a613e00272867ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c8585091dcc8315e74c1ddf3f8f6b66') in 0.049349 seconds 
+  Import took 0.052297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Close.prefab
+  artifactKey: Guid(f739138c8d3294a4e87bb1e45294dfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Close.prefab using Guid(f739138c8d3294a4e87bb1e45294dfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67dcf63966e5758948e186d98b42e0d') in 0.034022 seconds 
+  Import took 0.037435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_ETC_AD_Text.prefab
+  artifactKey: Guid(e03349a51600f4d7fac6f09346faacc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_ETC_AD_Text.prefab using Guid(e03349a51600f4d7fac6f09346faacc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b78bcfe887bd6e03bc0bd1bae8919c6') in 0.036767 seconds 
+  Import took 0.040142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.921539 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Hexagon_Continue.prefab
+  artifactKey: Guid(21c9391d1777b42658aeb2b9cba06399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Hexagon_Continue.prefab using Guid(21c9391d1777b42658aeb2b9cba06399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207a89750ca4da727bda2bd07a390d54') in 0.078624 seconds 
+  Import took 0.081983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Hexagon_ReStart.prefab
+  artifactKey: Guid(4f7d1946ffbe547d4ba4f51f1f0e0177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Hexagon_ReStart.prefab using Guid(4f7d1946ffbe547d4ba4f51f1f0e0177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2ed7a044ff491669eb7d24a9294303') in 0.037240 seconds 
+  Import took 0.040566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Hexagon_Exit.prefab
+  artifactKey: Guid(f5c2679886ea94c5f999dc55b059c39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Hexagon_Exit.prefab using Guid(f5c2679886ea94c5f999dc55b059c39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fe6b019d3f8e7cd057c9c7c07beae7') in 0.040906 seconds 
+  Import took 0.044133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_CommonUI/Button_Info.prefab
+  artifactKey: Guid(1a6d659cbe5e84793b03560a9f0dd458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_CommonUI/Button_Info.prefab using Guid(1a6d659cbe5e84793b03560a9f0dd458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb01c85e927b9dedad4ac8d9c554151') in 0.026868 seconds 
+  Import took 0.030071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Hexagon_Setting.prefab
+  artifactKey: Guid(186d9b404a1474f7d9a2a4aaf0a66aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_Buttons/Button_Hexagon_Setting.prefab using Guid(186d9b404a1474f7d9a2a4aaf0a66aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f069e35c0e231905a141931013f8565b') in 0.021434 seconds 
+  Import took 0.024525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Packages/GUI Kit Casual Game/Prefabs/UI_CommonUI/Button_Home.prefab
+  artifactKey: Guid(daa1cbbe7e39e43d2b1227b845129ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Packages/GUI Kit Casual Game/Prefabs/UI_CommonUI/Button_Home.prefab using Guid(daa1cbbe7e39e43d2b1227b845129ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8c5a38424e87a57ad962de32b23638') in 0.018320 seconds 
+  Import took 0.021668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.140253 seconds.
+  path: Assets/Elven Long Bow/Textures/Elven Long Bow Diffuse.png
+  artifactKey: Guid(9016de7c0db7965479435bae356efd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Long Bow/Textures/Elven Long Bow Diffuse.png using Guid(9016de7c0db7965479435bae356efd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fb81a4a9de3c5aa024459dbb5c971a') in 0.181169 seconds 
+  Import took 0.185856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Elven Long Bow/Textures/Elven Long Bow Normal.png
+  artifactKey: Guid(a52c5439c81b0ca47b58c03ca7369618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Long Bow/Textures/Elven Long Bow Normal.png using Guid(a52c5439c81b0ca47b58c03ca7369618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f4f116973f303c36dcb6eb3941bdf9') in 0.076007 seconds 
+  Import took 0.080537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.676987 seconds.
+  path: Assets/Elven Long Bow/Textures/Elven Long Bow Gloss.png
+  artifactKey: Guid(55cb16df4a5831142bb180149d360564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Long Bow/Textures/Elven Long Bow Gloss.png using Guid(55cb16df4a5831142bb180149d360564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7359e3ec73b2b2b17a904f655a996aeb') in 0.027255 seconds 
+  Import took 0.031360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.273590 seconds.
+  path: Assets/Elven Long Bow/Textures/Elven Long Bow Specular.png
+  artifactKey: Guid(19cb13b5ec9f43144b1bbe404a6dac18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Elven Long Bow/Textures/Elven Long Bow Specular.png using Guid(19cb13b5ec9f43144b1bbe404a6dac18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f64d3a713b9a663595a3e7e1a868ed') in 0.026528 seconds 
+  Import took 0.030538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.926300 seconds.
+  path: Assets/PreFabs/Player/PlayerPrefab.prefab
+  artifactKey: Guid(224a33424c70d7f46848624634c26e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFabs/Player/PlayerPrefab.prefab using Guid(224a33424c70d7f46848624634c26e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3690de4ff3f35825235b614c7b6f7954') in 0.094545 seconds 
+  Import took 0.100019 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -101,7 +101,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\EpicLootBoxEffects\Scripts\ToggleName.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-    <Compile Include="Assets\Scripts\Common\SkillCtrl.cs" />
+    <Compile Include="Assets\Scripts\Skills\SkillCast.cs" />
     <Compile Include="Assets\Scripts\ItemScript\RootBoxCtrl.cs" />
     <Compile Include="Assets\Scripts\CharData\PlayerData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
@@ -134,6 +134,8 @@
     <Compile Include="Assets\Scripts\Common\UIController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Packages\GabrielAguiarProductions\Unique_MagicAbilities_Volume_1\Scripts\ParticleSystemController\ParticleSystemController.cs" />
+    <Compile Include="Assets\Scripts\Skills\SkillShoot.cs" />
+    <Compile Include="Assets\Scripts\Skills\Skill.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Packages\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />

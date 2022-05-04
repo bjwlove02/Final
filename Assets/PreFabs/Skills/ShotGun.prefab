@@ -24211,8 +24211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7466fe42fdf958b4e8882da1edd3ace5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dmgDelay: 2
-  skillCastingTime: 1
+  dmgDelay: 1.5
   DMG: 10
 --- !u!65 &1439619782572175035
 BoxCollider:
