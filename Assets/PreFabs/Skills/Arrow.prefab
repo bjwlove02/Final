@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -7404260825588348613}
   m_Layer: 0
   m_Name: Arrow
-  m_TagString: Untagged
+  m_TagString: Skill
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DMG: 10
   dmgDelay: 1
-  speed: 150
+  speed: 20
   deadT: 3
 --- !u!136 &1931902373802558515
 CapsuleCollider:

@@ -889,11 +889,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!4 &377186104 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5629277466765683855, guid: 224a33424c70d7f46848624634c26e12, type: 3}
-  m_PrefabInstance: {fileID: 1904265531}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &439306443
 GameObject:
   m_ObjectHideFlags: 0
@@ -3289,45 +3284,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 888580658}
     m_Modifications:
-    - target: {fileID: 133327127, guid: 224a33424c70d7f46848624634c26e12, type: 3}
-      propertyPath: characterHP
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 133327133, guid: 224a33424c70d7f46848624634c26e12, type: 3}
-      propertyPath: skills.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 133327133, guid: 224a33424c70d7f46848624634c26e12, type: 3}
-      propertyPath: skillTr.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 133327133, guid: 224a33424c70d7f46848624634c26e12, type: 3}
-      propertyPath: skills.Array.data[3]
-      value: 
-      objectReference: {fileID: 1931902373802558512, guid: 3cf649ba9adb225468e6e491ddca5282, type: 3}
-    - target: {fileID: 133327133, guid: 224a33424c70d7f46848624634c26e12, type: 3}
-      propertyPath: skillTr.Array.data[3]
-      value: 
-      objectReference: {fileID: 377186104}
-    - target: {fileID: 2151416018335385000, guid: 224a33424c70d7f46848624634c26e12, type: 3}
-      propertyPath: selectBoxPanel
-      value: 
-      objectReference: {fileID: 1520312159}
     - target: {fileID: 3014157980116855550, guid: 224a33424c70d7f46848624634c26e12, type: 3}
       propertyPath: LevelUpPanel
       value: 
       objectReference: {fileID: 885240350}
     - target: {fileID: 5629277466765683855, guid: 224a33424c70d7f46848624634c26e12, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 5629277466765683855, guid: 224a33424c70d7f46848624634c26e12, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 5629277466765683855, guid: 224a33424c70d7f46848624634c26e12, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 6361307426048062306, guid: 224a33424c70d7f46848624634c26e12, type: 3}
       propertyPath: HP_Slider
@@ -3385,8 +3356,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerPrefab
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 133327131, guid: 224a33424c70d7f46848624634c26e12, type: 3}
+    - target: {fileID: 6361307426048062311, guid: 224a33424c70d7f46848624634c26e12, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 224a33424c70d7f46848624634c26e12, type: 3}
 --- !u!4 &1904265532 stripped
 Transform:
