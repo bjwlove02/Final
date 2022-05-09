@@ -502,14 +502,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6361307426048062310}
     m_Modifications:
-    - target: {fileID: 1022769351375658, guid: 17882321af8855449b83f8d109800a13, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1512641954104610, guid: 17882321af8855449b83f8d109800a13, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1566368292716416, guid: 17882321af8855449b83f8d109800a13, type: 3}
       propertyPath: m_Name
       value: PlayerModel
@@ -517,18 +509,6 @@ PrefabInstance:
     - target: {fileID: 4476821008798862, guid: 17882321af8855449b83f8d109800a13, type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4476821008798862, guid: 17882321af8855449b83f8d109800a13, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4476821008798862, guid: 17882321af8855449b83f8d109800a13, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4476821008798862, guid: 17882321af8855449b83f8d109800a13, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4476821008798862, guid: 17882321af8855449b83f8d109800a13, type: 3}
       propertyPath: m_LocalPosition.x
@@ -569,42 +549,6 @@ PrefabInstance:
     - target: {fileID: 4476821008798862, guid: 17882321af8855449b83f8d109800a13, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 95462824699125624, guid: 17882321af8855449b83f8d109800a13, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: cbd51baee215f7948a8f61b34bafd8a5, type: 2}
-    - target: {fileID: 95462824699125624, guid: 17882321af8855449b83f8d109800a13, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 137828569076112076, guid: 17882321af8855449b83f8d109800a13, type: 3}
-      propertyPath: m_Quality
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 137828569076112076, guid: 17882321af8855449b83f8d109800a13, type: 3}
-      propertyPath: m_CastShadows
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 137828569076112076, guid: 17882321af8855449b83f8d109800a13, type: 3}
-      propertyPath: m_ReceiveShadows
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 137828569076112076, guid: 17882321af8855449b83f8d109800a13, type: 3}
-      propertyPath: m_DynamicOccludee
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 137828569076112076, guid: 17882321af8855449b83f8d109800a13, type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 137828569076112076, guid: 17882321af8855449b83f8d109800a13, type: 3}
-      propertyPath: m_ReflectionProbeUsage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 137828569076112076, guid: 17882321af8855449b83f8d109800a13, type: 3}
-      propertyPath: m_SkinnedMotionVectors
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17882321af8855449b83f8d109800a13, type: 3}
