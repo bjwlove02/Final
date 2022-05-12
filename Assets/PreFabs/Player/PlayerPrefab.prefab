@@ -379,11 +379,6 @@ MonoBehaviour:
   - {fileID: 7012462906815529134, guid: 31f2fd265a55d1f4cb1ddb86cfbbc890, type: 3}
   - {fileID: 4969492921077078348, guid: 2cf0cbd83e04fc24196a22f084e98fb4, type: 3}
   - {fileID: 1931902373802558512, guid: 3cf649ba9adb225468e6e491ddca5282, type: 3}
-  skillTr:
-  - {fileID: 527628330349889819}
-  - {fileID: 2695928678244856254}
-  - {fileID: 996071370}
-  - {fileID: 5629277466765683855}
 --- !u!114 &3014157980116855550
 MonoBehaviour:
   m_ObjectHideFlags: 0

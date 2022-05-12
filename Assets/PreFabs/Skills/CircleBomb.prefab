@@ -9686,8 +9686,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3866444209927293281}
   - component: {fileID: 2104680704704306205}
+  - component: {fileID: 3967267547451667944}
   - component: {fileID: 6786902396864114528}
-  - component: {fileID: 5568772488065910930}
   - component: {fileID: 1191951469074084913}
   - component: {fileID: -8412448963324120221}
   - component: {fileID: -11213537426218896}
@@ -14459,6 +14459,19 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!114 &3967267547451667944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2622989348459446593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ba093fb33801740a06fcde5de5c705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Damage: 0
 --- !u!199 &6786902396864114528
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -14525,21 +14538,6 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &5568772488065910930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2622989348459446593}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7466fe42fdf958b4e8882da1edd3ace5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dmgDelay: 1
-  skillCastingTime: 1
-  DMG: 2
 --- !u!135 &1191951469074084913
 SphereCollider:
   m_ObjectHideFlags: 0

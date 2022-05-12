@@ -19354,9 +19354,9 @@ GameObject:
   - component: {fileID: 7012462906815529129}
   - component: {fileID: 7012462906815529131}
   - component: {fileID: 7012462906815529128}
-  - component: {fileID: 6753823880594398711}
   - component: {fileID: 1439619782572175035}
   - component: {fileID: 6529027139602878969}
+  - component: {fileID: 458493983942907210}
   - component: {fileID: 6985384362764957914}
   m_Layer: 0
   m_Name: ShotGun
@@ -24199,20 +24199,6 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &6753823880594398711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7012462906815529134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7466fe42fdf958b4e8882da1edd3ace5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dmgDelay: 1.5
-  DMG: 10
 --- !u!65 &1439619782572175035
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24242,6 +24228,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &458493983942907210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7012462906815529134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70ba093fb33801740a06fcde5de5c705, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Damage: 0
 --- !u!114 &6985384362764957914
 MonoBehaviour:
   m_ObjectHideFlags: 0

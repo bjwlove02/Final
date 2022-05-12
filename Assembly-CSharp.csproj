@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Skills\Skill.cs" />
     <Compile Include="Assets\Scripts\ItemScript\ItemSlot.cs" />
     <Compile Include="Assets\Scripts\PlayerScript\FollowCam.cs" />
+    <Compile Include="Assets\Scripts\Skills\Fireball\FireBall.cs" />
     <Compile Include="Assets\Packages\Hovl Studio\Toon projectiles\Scripts\ProjectileMover.cs" />
     <Compile Include="Assets\Scripts\PlayerScript\PlayerAnimCtrl.cs" />
     <Compile Include="Assets\Scripts\Common\DMGCtrl.cs" />
@@ -102,7 +103,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Packages\EpicLootBoxEffects\Scripts\ToggleName.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
-    <Compile Include="Assets\Scripts\Skills\SkillCast.cs" />
+    <Compile Include="Assets\Scripts\Skills\CircleBomb\CircleBomb.cs" />
     <Compile Include="Assets\Scripts\ItemScript\RootBoxCtrl.cs" />
     <Compile Include="Assets\Scripts\CharData\PlayerData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
@@ -123,7 +124,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
-    <Compile Include="Assets\Scripts\Skills\SkillShoot.cs" />
+    <Compile Include="Assets\Scripts\Skills\Fireball\ShootFireBall.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Scripts\EnemyScript\EnemyHP.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
@@ -136,6 +137,10 @@
     <Compile Include="Assets\Scripts\Common\UIController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Packages\GabrielAguiarProductions\Unique_MagicAbilities_Volume_1\Scripts\ParticleSystemController\ParticleSystemController.cs" />
+    <Compile Include="Assets\Scripts\Skills\SkillHitCheck.cs" />
+    <Compile Include="Assets\Scripts\Skills\ParticleColl_Check.cs" />
+    <Compile Include="Assets\Scripts\Skills\Melee\MeleeAttack.cs" />
+    <Compile Include="Assets\Scripts\Skills\ShotGun\ShotGun.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Packages\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
