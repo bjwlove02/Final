@@ -7,7 +7,7 @@ so adjusting these values will ensure the model look best on your setup.
 ----------------------------------------------
 
 If you found any problem, please contact us.
-Mail : akaraphob_sur@suriyun.com,contact@suriyun.com
+Mail : contact@suriyun.com
 Site : www.suriyun.com
 
 ----------------------------------------------
