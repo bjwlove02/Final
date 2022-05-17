@@ -194,7 +194,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1167287407522712588}
   - component: {fileID: 1167287407532008436}
-  - component: {fileID: 5093930763115503403}
   - component: {fileID: -689804758695383853}
   - component: {fileID: 2113507820146670952}
   - component: {fileID: -2034214675527138946}
@@ -241,20 +240,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5093930763115503403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1167287407522484268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04bfd3ff9e0456841aed8f69aae296a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HitPoint: 10
-  isDie: 0
 --- !u!114 &-689804758695383853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -267,8 +252,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 025544ebb16a6c345a1267075c767f79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterHP: 0
   type: 1
   dmgDelay: 0.1
+  isDie: 0
 --- !u!114 &2113507820146670952
 MonoBehaviour:
   m_ObjectHideFlags: 0

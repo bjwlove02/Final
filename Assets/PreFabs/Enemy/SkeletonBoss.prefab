@@ -4497,7 +4497,6 @@ GameObject:
   m_Component:
   - component: {fileID: 403920}
   - component: {fileID: 1522001416}
-  - component: {fileID: 1522001418}
   - component: {fileID: 6167274509518805860}
   - component: {fileID: 1133110477935983661}
   - component: {fileID: 696135047423621833}
@@ -4542,20 +4541,6 @@ MonoBehaviour:
   Exp: {fileID: 8389173633487189310, guid: 3444c239ce721c44589650f782cbb098, type: 3}
   RandomBox: {fileID: 1632052825836748, guid: e6fd1715965d63043a413dea8f583622, type: 3}
   monsterDMG: 0
---- !u!114 &1522001418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 191838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04bfd3ff9e0456841aed8f69aae296a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HitPoint: 100
-  isDie: 0
 --- !u!114 &6167274509518805860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4568,8 +4553,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 025544ebb16a6c345a1267075c767f79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterHP: 0
   type: 1
   dmgDelay: 0.1
+  isDie: 0
 --- !u!136 &1133110477935983661
 CapsuleCollider:
   m_ObjectHideFlags: 0

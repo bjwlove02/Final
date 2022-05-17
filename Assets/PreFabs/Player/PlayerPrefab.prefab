@@ -436,12 +436,12 @@ GameObject:
   - component: {fileID: 6361307426048062309}
   - component: {fileID: 6361307426048062305}
   - component: {fileID: 6361307426048062306}
-  - component: {fileID: 133327127}
   - component: {fileID: 133327132}
   - component: {fileID: 133327133}
   - component: {fileID: 3014157980116855550}
   - component: {fileID: 2151416018335385000}
   - component: {fileID: 4988972787507347325}
+  - component: {fileID: 5328627899300420634}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Player
@@ -511,22 +511,6 @@ MonoBehaviour:
   EXP_Slider: {fileID: 0}
   playerTr: {fileID: 6361307426048062310}
   playerAnimCtrl: {fileID: 6361307426048062305}
---- !u!114 &133327127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6361307426048062311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 025544ebb16a6c345a1267075c767f79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterHP: 10
-  type: 0
-  dmgDelay: 0.1
-  isDie: 0
 --- !u!54 &133327132
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -608,6 +592,21 @@ MonoBehaviour:
   shotGunLevel: 0
   circleBombLevel: 0
   fireBallLevel: 0
+--- !u!114 &5328627899300420634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6361307426048062311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b2221cdc1313944b1b2ffe62d97f15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterHP: 10
+  dmgDelay: 0.1
+  isDie: 0
 --- !u!1 &7671400082032847814
 GameObject:
   m_ObjectHideFlags: 0

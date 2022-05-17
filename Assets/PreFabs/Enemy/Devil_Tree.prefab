@@ -45,7 +45,8 @@ GameObject:
   - component: {fileID: 8098064716006772810}
   - component: {fileID: -7724612060046711829}
   - component: {fileID: 9206648508846861807}
-  - component: {fileID: -830418800282998860}
+  - component: {fileID: 9127276175602934478}
+  - component: {fileID: 5243663979453496717}
   m_Layer: 0
   m_Name: Devil_Tree
   m_TagString: Monster
@@ -159,7 +160,7 @@ MonoBehaviour:
   Exp: {fileID: 8389173633487189310, guid: 3444c239ce721c44589650f782cbb098, type: 3}
   RandomBox: {fileID: 1632052825836748, guid: e6fd1715965d63043a413dea8f583622, type: 3}
   monsterDMG: 0
---- !u!114 &-830418800282998860
+--- !u!114 &9127276175602934478
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,51 +169,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 3724572471564977762}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 025544ebb16a6c345a1267075c767f79, type: 3}
+  m_Script: {fileID: 11500000, guid: 3acc3ddb117498c4c9ed7b2df6d5a10b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterHP: 10
-  type: 1
+  characterHP: 20
   dmgDelay: 0.1
   isDie: 0
---- !u!1 &3724572471564977764
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3724572471564950084}
-  - component: {fileID: 3724572471551380320}
-  m_Layer: 0
-  m_Name: Devil_Tree
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3724572471564950084
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3724572471564977764}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 3724572471564950082}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &3724572471551380320
+  mat: {fileID: 2100000, guid: fcd0ca40badd00044bc63f1436171907, type: 2}
+  rgd: {fileID: 8098064716006772810}
+--- !u!137 &5243663979453496717
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3724572471564977764}
+  m_GameObject: {fileID: 3724572471564977762}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -262,6 +233,36 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.02051115, y: 1.0855131, z: 0.044261754}
     m_Extent: {x: 0.89160156, y: 1.1172004, z: 0.83588713}
   m_DirtyAABB: 0
+--- !u!1 &3724572471564977764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3724572471564950084}
+  m_Layer: 0
+  m_Name: Devil_Tree
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3724572471564950084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3724572471564977764}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3724572471564950082}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3724572471564977766
 GameObject:
   m_ObjectHideFlags: 0
