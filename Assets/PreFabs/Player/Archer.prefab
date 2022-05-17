@@ -2498,6 +2498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   subChar_Tr: {fileID: 0}
   atkAnim_Type: 4
+  atkVFX: {fileID: 1037125457430904, guid: 3471b50b2f263b3498010bc6447ee8a3, type: 3}
   trace_range_Half_Rad: 0.2
   speed: 8
 --- !u!1 &1378542575408906
