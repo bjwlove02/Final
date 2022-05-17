@@ -112,6 +112,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Packages\GabrielAguiarProductions\Unique_MagicAbilities_Volume_1\Scripts\UniqueProjectiles\ProjectileMoveScript.cs" />
     <Compile Include="Assets\Scripts\ItemScript\Inventory.cs" />
+    <Compile Include="Assets\Scripts\SubPlayerScript\SubPlayerCtrl.cs" />
     <Compile Include="Assets\Packages\Hovl Studio\Toon projectiles\Demo scene\DemoShooting.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Packages\GabrielAguiarProductions\Unique_MagicAbilities_Volume_1\Scripts\ParticleSystemController\ParticleSystemControllerEditor.cs" />
@@ -138,6 +139,7 @@
     <Compile Include="Assets\Scripts\Common\UIController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Packages\GabrielAguiarProductions\Unique_MagicAbilities_Volume_1\Scripts\ParticleSystemController\ParticleSystemController.cs" />
+    <Compile Include="Assets\Scripts\SubPlayerScript\SubPlayerManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Packages\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
