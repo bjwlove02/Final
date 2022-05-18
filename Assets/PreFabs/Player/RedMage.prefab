@@ -255,7 +255,7 @@ MonoBehaviour:
   atkAnim_Type: 2
   atkVFX: {fileID: 1037125457430904, guid: 3471b50b2f263b3498010bc6447ee8a3, type: 3}
   trace_range_Half_Rad: 0.2
-  speed: 8
+  speed: 9
 --- !u!1 &1061156421552890
 GameObject:
   m_ObjectHideFlags: 0

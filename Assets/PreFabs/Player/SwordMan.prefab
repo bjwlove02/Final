@@ -1479,9 +1479,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   subChar_Tr: {fileID: 0}
   atkAnim_Type: 3
-  atkVFX: {fileID: 1037125457430904, guid: 3471b50b2f263b3498010bc6447ee8a3, type: 3}
+  atkVFX: {fileID: 1037125457430904, guid: 1e9506f0079188f4a873371e8830f8d9, type: 3}
   trace_range_Half_Rad: 0.2
-  speed: 8
+  speed: 9
 --- !u!1 &1199782892718570
 GameObject:
   m_ObjectHideFlags: 0
