@@ -65,7 +65,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\Scripts\Skills\Skill.cs" />
     <Compile Include="Assets\Scripts\ItemScript\ItemSlot.cs" />
+    <Compile Include="Assets\Scripts\Skills\Meteor\Meteor_Hit.cs" />
     <Compile Include="Assets\Scripts\PlayerScript\FollowCam.cs" />
+    <Compile Include="Assets\Scripts\Skills\Meteor\ProjectileCtrl.cs" />
     <Compile Include="Assets\Scripts\EnemyScript\EnemyDMGCtrl.cs" />
     <Compile Include="Assets\Scripts\Skills\Fireball\FireBall.cs" />
     <Compile Include="Assets\Packages\Hovl Studio\Toon projectiles\Scripts\ProjectileMover.cs" />
@@ -106,6 +108,7 @@
     <Compile Include="Assets\Packages\GabrielAguiarProductions\Unique_MagicAbilities_Volume_1\Scripts\UniqueProjectiles\SpawnProjectilesScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Packages\EpicLootBoxEffects\Scripts\ToggleName.cs" />
+    <Compile Include="Assets\Scripts\Skills\Meteor\Meteor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\Skills\CircleBomb\CircleBomb.cs" />
     <Compile Include="Assets\Scripts\ItemScript\RootBoxCtrl.cs" />
@@ -142,9 +145,8 @@
     <Compile Include="Assets\Scripts\Common\UIController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Packages\GabrielAguiarProductions\Unique_MagicAbilities_Volume_1\Scripts\ParticleSystemController\ParticleSystemController.cs" />
-    <Compile Include="Assets\Scripts\Skills\Meteor\Meteor_Hit.cs" />
-    <Compile Include="Assets\Scripts\Skills\Meteor\ProjectileCtrl.cs" />
-    <Compile Include="Assets\Scripts\Skills\Meteor\Meteor.cs" />
+    <Compile Include="Assets\Scripts\Common\MouseRayCast.cs" />
+    <Compile Include="Assets\Scripts\Common\SpawnObstacle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Packages\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />

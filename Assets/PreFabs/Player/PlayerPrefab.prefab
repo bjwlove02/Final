@@ -478,6 +478,7 @@ MonoBehaviour:
   shotGunLevel: 0
   circleBombLevel: 0
   fireBallLevel: 0
+  meteorLevel: 0
 --- !u!114 &5328627899300420634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -569,6 +570,14 @@ PrefabInstance:
       propertyPath: casterPos
       value: 
       objectReference: {fileID: 1373666151}
+    - target: {fileID: 7072055090915688137, guid: f3bdfb54642407547b3d091ef9983b95, type: 3}
+      propertyPath: player_obj
+      value: 
+      objectReference: {fileID: 6361307426048062311}
+    - target: {fileID: 7072055090915688137, guid: f3bdfb54642407547b3d091ef9983b95, type: 3}
+      propertyPath: skillLevel
+      value: 
+      objectReference: {fileID: 4988972787507347325}
     - target: {fileID: 7072055090915688142, guid: f3bdfb54642407547b3d091ef9983b95, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -646,6 +655,14 @@ PrefabInstance:
       propertyPath: casterPos
       value: 
       objectReference: {fileID: 1373666151}
+    - target: {fileID: 3810841577469102279, guid: 385146336d061074aafa80b3b85bc84c, type: 3}
+      propertyPath: player_obj
+      value: 
+      objectReference: {fileID: 6361307426048062311}
+    - target: {fileID: 3810841577469102279, guid: 385146336d061074aafa80b3b85bc84c, type: 3}
+      propertyPath: skillLevel
+      value: 
+      objectReference: {fileID: 4988972787507347325}
     - target: {fileID: 6815245326290348609, guid: 385146336d061074aafa80b3b85bc84c, type: 3}
       propertyPath: m_Name
       value: Fireball_pos
@@ -723,6 +740,14 @@ PrefabInstance:
       propertyPath: casterPos
       value: 
       objectReference: {fileID: 613605146}
+    - target: {fileID: 5949769781048745810, guid: 34a7e420f9526994bbc0a4abd96a0242, type: 3}
+      propertyPath: player_obj
+      value: 
+      objectReference: {fileID: 6361307426048062311}
+    - target: {fileID: 5949769781048745810, guid: 34a7e420f9526994bbc0a4abd96a0242, type: 3}
+      propertyPath: skillLevel
+      value: 
+      objectReference: {fileID: 4988972787507347325}
     - target: {fileID: 6179879030024528824, guid: 34a7e420f9526994bbc0a4abd96a0242, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -800,6 +825,14 @@ PrefabInstance:
       propertyPath: casterPos
       value: 
       objectReference: {fileID: 924687492}
+    - target: {fileID: 6303988849750757612, guid: 66a5a73a7aaef5a46bcd443469b780af, type: 3}
+      propertyPath: player_obj
+      value: 
+      objectReference: {fileID: 6361307426048062311}
+    - target: {fileID: 6303988849750757612, guid: 66a5a73a7aaef5a46bcd443469b780af, type: 3}
+      propertyPath: skillLevel
+      value: 
+      objectReference: {fileID: 4988972787507347325}
     - target: {fileID: 7530435354451417194, guid: 66a5a73a7aaef5a46bcd443469b780af, type: 3}
       propertyPath: m_Name
       value: ShotGun_pos
@@ -988,6 +1021,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 8612313362370403125, guid: 0b86401afe5c2e74c8fcbb978b03ec76, type: 3}
+      propertyPath: player_obj
+      value: 
+      objectReference: {fileID: 6361307426048062311}
+    - target: {fileID: 8612313362370403125, guid: 0b86401afe5c2e74c8fcbb978b03ec76, type: 3}
+      propertyPath: skillLevel
+      value: 
+      objectReference: {fileID: 4988972787507347325}
     - target: {fileID: 8612313363416033181, guid: 0b86401afe5c2e74c8fcbb978b03ec76, type: 3}
       propertyPath: m_RootOrder
       value: 1
