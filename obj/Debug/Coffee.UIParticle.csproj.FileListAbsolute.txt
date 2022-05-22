@@ -1,0 +1,2 @@
+D:\Transcend\과제\2022-1\졸업프로젝트\Final\obj\Debug\Coffee.UIParticle.csproj.AssemblyReference.cache
+D:\Transcend\과제\2022-1\졸업프로젝트\Final\obj\Debug\Coffee.UIParticle.csproj.CoreCompileInputs.cache
