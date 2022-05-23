@@ -47,8 +47,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39e5536f6282da4887ebec8bf74f2ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Damage: 0
+  Nock_Back: 0
   deadT: 0
   speed: 0
+  penetration_num: 0
 --- !u!114 &1931902373802558513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,7 +66,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 3
   value: 0
-  itemImage: {fileID: 0}
+  itemImage: {fileID: 21300000, guid: 00ab61d7e9e6f5e4bb2d4de736d2e764, type: 3}
 --- !u!54 &-7404260825588348613
 Rigidbody:
   m_ObjectHideFlags: 0
